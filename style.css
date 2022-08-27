@@ -4,7 +4,7 @@
     justify-content: center;
     margin: 0;
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Abril Fatface', serif;
 }
 
 .header {
@@ -20,19 +20,34 @@
 
 #name {
     font-size: 38pt;
+    font-family: inherit;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FCF6F5FF;
+    font-size: 28px;
+}
+
+.top-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .content {
     flex: auto;
     display: flex;
-    justify-content: center;
-    padding: 25px 75px 25px 75px;
+    flex-direction: column;
+    padding: 50px 75px 50px 75px;
     background-color: #FCF6F5FF;
     color: #990011FF;
 }
 
 .title {
     font-size: 28pt;
+    margin-bottom: 10px;
 }
 
 #description {
@@ -42,7 +57,13 @@
 .about-me {
     display: flex;
     flex-direction: column;
-    padding: 25px 125px 25px 125px;
+    padding: 0px 125px 0px 125px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 125px 0px 125px;
 }
 
 .footer {
@@ -52,6 +73,6 @@
     margin-top: auto;
     height: 25px;
     padding: 25px 75px 25px 75px;
-    background-color: #990011FF;
-    color: #FCF6F5FF;
+    background-color: #FCF6F5FF;
+    color: #990011FF;
 }
