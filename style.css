@@ -27,6 +27,7 @@
     text-decoration: none;
     color: #FCF6F5FF;
     font-size: 28px;
+    font-style: unset;
 }
 
 .top-links {
@@ -37,7 +38,8 @@
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
+    font-style: italic;
     color: black;
 }
 
