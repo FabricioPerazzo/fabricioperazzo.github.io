@@ -18,14 +18,14 @@
 }
 
 #name {
-    font-size: 38pt;
+    font-size: 3.2vw;
     font-family: inherit;
 }
 
 .header a {
     text-decoration: none;
     color: #FCF6F5FF;
-    font-size: 28px;
+    font-size: 1.5vw;
     font-style: unset;
 }
 
@@ -49,14 +49,14 @@ a {
     padding: 5vh 8vw 5vh 8vw;
     background-color: #FCF6F5FF;
     color: black;
-    font-size: 20pt;
+    font-size: 3vh;
     text-align: justify;
     text-justify: inter-word;
     line-height: 1.6;
 }
 
 .title {
-    font-size: 30pt;
+    font-size: 4.2vh;
     margin-bottom: 1vh;
 }
 
