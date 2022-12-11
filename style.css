@@ -66,6 +66,10 @@ a {
     padding: 0px 7vw 0px 7vw;
 }
 
+.resume {
+    margin: 0;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
