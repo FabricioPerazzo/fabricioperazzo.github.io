@@ -1,0 +1,173 @@
+body {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+}
+
+h3.notes {
+margin-bottom: 6pt;
+}
+
+h5 {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AD3038;
+    <!--
+    rgb(101,115,156);
+    -->
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+	margin: 0;
+    text-decoration: none;
+    target: _self;
+}
+
+li.nav a:hover:not(.active) {
+    background-color: #6E1F24;
+    <!--
+    rgb(65,74,101);
+    -->
+}
+
+.active {
+    background-color: black;
+}
+
+ul.nobul {
+	list-style-type: none;
+	margin: 0cm;
+	padding: 0cm;
+	padding-left: 0cm;
+}
+
+li {
+	padding: 3px 0px;
+}
+
+li ul {
+	margin: 0;
+	padding: 3px 25px;
+}
+
+li dd {
+	margin: 0;
+	padding: 3px 10px;
+}
+
+a:link {
+    text-decoration: none;
+    target: _blank;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ol.arm {
+	list-style-type: lower-armenian;
+	margin: 0;
+	margin-top: 0pt;
+	margin-bottom: 6pt;
+	padding-left: 30px;
+	padding-top: 0px;
+}
+
+ol.spaced li { 
+	margin-bottom: 8pt; 
+}
+
+ul.spaced li { 
+margin-bottom: 8pt; 
+}
+
+p.indented {
+	padding-left: 1em;
+}
+
+ul.indented {
+	margin-left: 1em;
+	margin-top: 0pt;
+}
+
+details {
+overflow: hidden;
+background: transparent;
+margin-left: 10px;
+margin-top: 7px;
+margin-bottom: 7px;
+width: 550px;
+}
+
+details[open] {
+background: transparent;
+margin-left: 10px;
+margin-top: 7px;
+margin-bottom: 7px;
+}
+
+details summary {
+cursor: pointer;
+padding-bottom: 10px;
+font-size: 16px;
+}
+
+summary::-webkit-details-marker {
+color: rgb(101,115,156);
+}
+
+table td, table td * {
+vertical-align: top;
+}
+
+table.courses { 
+table-layout: auto;
+width: 63%;
+margin-left: 10px; 
+margin-bottom:7px; 
+}
+
+table.courses td { width: 12%; } 
+table.courses td+td { width: 88%; }
+
+
+ul.arrow {
+}
+
+ul.arrow li:before {
+content: '\21D2'; 
+margin-left: -33px; 
+margin-right: 13px;
+}
+
+ul.highlight {
+list-style-type: circle;
+}
