@@ -97,19 +97,6 @@ a:active {
     text-decoration: underline;
 }
 
-ol.arm {
-	list-style-type: lower-armenian;
-	margin: 0;
-	margin-top: 0pt;
-	margin-bottom: 6pt;
-	padding-left: 30px;
-	padding-top: 0px;
-}
-
-ol.spaced li { 
-	margin-bottom: 8pt; 
-}
-
 ul.spaced li { 
 margin-bottom: 8pt; 
 }
@@ -123,28 +110,6 @@ ul.indented {
 	margin-top: 0pt;
 }
 
-details {
-overflow: hidden;
-background: transparent;
-margin-left: 10px;
-margin-top: 7px;
-margin-bottom: 7px;
-width: 550px;
-}
-
-details[open] {
-background: transparent;
-margin-left: 10px;
-margin-top: 7px;
-margin-bottom: 7px;
-}
-
-details summary {
-cursor: pointer;
-padding-bottom: 10px;
-font-size: 16px;
-}
-
 summary::-webkit-details-marker {
 color: rgb(101,115,156);
 }
@@ -152,16 +117,6 @@ color: rgb(101,115,156);
 table td, table td * {
 vertical-align: top;
 }
-
-table.courses { 
-table-layout: auto;
-width: 63%;
-margin-left: 10px; 
-margin-bottom:7px; 
-}
-
-table.courses td { width: 12%; } 
-table.courses td+td { width: 88%; }
 
 ul.arrow li:before {
 content: '\21D2'; 
